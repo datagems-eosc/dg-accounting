@@ -8,7 +8,7 @@ The primary data store for the service operational metadata is a PostgreSQL host
 
 ## Event Datastore
 
-The accountable event data is stored in a NoSQL Elastic datastore. 
+The accountable event data is stored in a NoSQL Elastic Search datastore. 
 
 ## Filesystem
 

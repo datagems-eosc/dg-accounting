@@ -23,6 +23,7 @@ When an authenticated call reaches the service, the caller may be authorized to 
 Within the service, all data access operations as well as individual actions pass authorization checks. The permissions that are checked along with the policies attached to each one is managed in a configuration file that the respective [Configuration](configuration.md) section describes.
 
 Possible authorization policies include:
+
 * **Context-less assignment**: such as an administrator that can perform action X on entity Y, regardless of the kind of affiliation they have with the entity
 * **Owner**: Specific kind of affiliation between the calling user and the entity over which the action is to be performed, indicating ownership of the entity. An example is an accounting event generator client that is managed by a specific user
 * **Client**: a policy similar to the Context-less permission assignment. Instead of checking specificaly the "role" claim type, this policy will check the caller client id to have a specific value to match the policy
