@@ -61,7 +61,7 @@ The model for an accounted event can contain the following information:
 
 ## Ingestion Pipeline
 
-The accounting service offers HTTP API endpoints through which event ingestion can take place. For the purpose of the DataGEMS integration we have choosen a less intrucive approach for the integrating components that is also offered by the Accouting Service.
+The accounting service offers HTTP API endpoints through which event ingestion can take place. For the purpose of the DataGEMS integration we have choosen a less intrucive approach for the integrating components that is also offered by the Logging Service.
 
 We make use of the logging capabilities and the infrastructure and processes put in place for the [Logging Service](https://datagems-eosc.github.io/dg-logging-service). Integrating components can produce log entries that are explicitly marked to be interpreted as Accounting Entries. These entires are not picked up by the logging service aggregation mechanism but from a pipeline that explicitly picks them up, transforms and ingests them to the Accounting Service Elastic Search index.
 
