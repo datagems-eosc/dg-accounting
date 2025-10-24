@@ -914,12 +914,14 @@
 <h2 id="authorization">Authorization<a class="headerlink" href="#authorization" title="Permanent link">&para;</a></h2>
 <p>When an authenticated call reaches the service, the caller may be authorized to perform an action or not. This will have to be authorized based on the grants that are present as roles in the access token presented as well as the context in which they want to perform the operation.</p>
 <p>Within the service, all data access operations as well as individual actions pass authorization checks. The permissions that are checked along with the policies attached to each one is managed in a configuration file that the respective <a href="../configuration/">Configuration</a> section describes.</p>
-<p>Possible authorization policies include:
-* <strong>Context-less assignment</strong>: such as an administrator that can perform action X on entity Y, regardless of the kind of affiliation they have with the entity
-* <strong>Owner</strong>: Specific kind of affiliation between the calling user and the entity over which the action is to be performed, indicating ownership of the entity. An example is an accounting event generator client that is managed by a specific user
-* <strong>Client</strong>: a policy similar to the Context-less permission assignment. Instead of checking specificaly the "role" claim type, this policy will check the caller client id to have a specific value to match the policy
-* <strong>Authenticated</strong>: Authenticated user, regardless of any other characteristic vcan be granted or not granted the specific permission
-* <strong>Anonymous</strong>: Anonymous users be be granted or not granted the specific permission</p>
+<p>Possible authorization policies include:</p>
+<ul>
+<li><strong>Context-less assignment</strong>: such as an administrator that can perform action X on entity Y, regardless of the kind of affiliation they have with the entity</li>
+<li><strong>Owner</strong>: Specific kind of affiliation between the calling user and the entity over which the action is to be performed, indicating ownership of the entity. An example is an accounting event generator client that is managed by a specific user</li>
+<li><strong>Client</strong>: a policy similar to the Context-less permission assignment. Instead of checking specificaly the "role" claim type, this policy will check the caller client id to have a specific value to match the policy</li>
+<li><strong>Authenticated</strong>: Authenticated user, regardless of any other characteristic vcan be granted or not granted the specific permission</li>
+<li><strong>Anonymous</strong>: Anonymous users be be granted or not granted the specific permission</li>
+</ul>
 <p>With respect to Context-less grant assignment, there are two access levels that cen be statically assigned and interpreted for authorization purposes:
 * <strong>Admin</strong>: Users with admin grant can manage all aspects of the application and see accounting events from all aggregation sources
 * <strong>User</strong>: Users with user grant can see aggregation events from the aggregation sources they are associated with inside the accounting service</p>
