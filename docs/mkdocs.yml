@@ -9,8 +9,8 @@ nav:
     - Architecture: architecture.md
     - Security Model: security.md
     - Datastores: datastore.md
-  - Events:
-    - Examples: event-overview.md
+  - Accounting:
+    - Overview: accounting-overview.md
   - Setup & Monitoring:
     - Automations: automations.md
     - Deployment: deployment.md
