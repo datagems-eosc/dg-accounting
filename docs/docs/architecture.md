@@ -6,7 +6,7 @@ The overall architecture and major data flows are presented in the following dia
 
 ![Overview](images/architecture-overview.png)
 
-DataGEMS components that generate accountable events, utilize one of the supported [Accounting Formats](accounting-formats.md) to trace the desired events. The events are loges using the same log sink that is used for integrating with the troubleshooting logs, as described for the [Logging Service](https://datagems-eosc.github.io/dg-logging-service).
+DataGEMS components that generate accountable events, utilize one of the supported [Accounting Formats](accounting-formats.md) to trace the desired events. The events are loges using the same log sink that is used for integrating with the troubleshooting logs, as described for the [Logging Service](https://datagems-eosc.github.io/dg-logging).
 
 A dedicated processing module in the log aggregation pipeline identifies the accountable event entry and processes the event based on the transformation logic configured. This will inject the accounted event in a dedicated event aggregation store that will facilitate further processing and aggregations.
 

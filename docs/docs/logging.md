@@ -1,6 +1,6 @@
 # Logging
 
-All DataGEMS services are producing logs in a structured way, usilizing common log formats. The logs are aggregated to the [Logging Service](https://datagems-eosc.github.io/dg-logging-service) where they can be queried and analyzed.
+All DataGEMS services are producing logs in a structured way, usilizing common log formats. The logs are aggregated to the [Logging Service](https://datagems-eosc.github.io/dg-logging) where they can be queried and analyzed.
 
 ## Log format
 
