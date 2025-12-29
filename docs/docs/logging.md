@@ -28,14 +28,8 @@ Log entries may contain the following information (where available):
 * Log Level
 * ... additional properties
 
-An prettified example of a log entry is:
-
-**TODO: Provide Example**
-
 ## Accounting Logs
 
 The service generates accounting entries that utilize the same logging mechanism but are differentiated by troubleshooting logs through the "SourceContext" property which is set to "accounting".
 
 These accounting log entries are harvested and processed by the [Accounting Service](https://datagems-eosc.github.io/dg-accounting-service). So, any accounting events generated within the accounting service are again visible through the same service.
-
-**TODO: Provide Example**

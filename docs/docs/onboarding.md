@@ -20,7 +20,7 @@ You can always contact us through the [DataGEMS Help Desk](https://datagems.eu/c
 
 ## Examples
 
-You can find information on the accounting event supported model in the [Accounting Overview](accounting-overview.md) section.
+You can find information on the accounting event supported model in the [Accounting Formats](accounting-formats.md) section.
 
 ## Tutorials
 

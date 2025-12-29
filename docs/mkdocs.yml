@@ -10,7 +10,9 @@ nav:
     - Security Model: security.md
     - Datastores: datastore.md
   - Accounting:
-    - Overview: accounting-overview.md
+    - Message Structure: accounting-model.md
+    - Log Formats: accounting-formats.md
+    - Pipeline: accounting-pipeline.md
   - Setup & Monitoring:
     - Automations: automations.md
     - Deployment: deployment.md

@@ -31,6 +31,7 @@ Possible authorization policies include:
 * **Anonymous**: Anonymous users be be granted or not granted the specific permission
 
 With respect to Context-less grant assignment, there are two access levels that cen be statically assigned and interpreted for authorization purposes:
+
 * **Admin**: Users with admin grant can manage all aspects of the application and see accounting events from all aggregation sources
 * **User**: Users with user grant can see aggregation events from the aggregation sources they are associated with inside the accounting service
 
