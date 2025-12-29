@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://datagems-eosc.github.io/dg-accounting/v0.0/automations/">
+        <link rel="canonical" href="https://datagems-eosc.github.io/dg-accounting/v0.0/accounting-model/">
       
       
-        <link rel="prev" href="../accounting-pipeline/">
+        <link rel="prev" href="../datastore/">
       
       
-        <link rel="next" href="../deployment/">
+        <link rel="next" href="../accounting-formats/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Automations - DataGEMS Accounting Docs</title>
+        <title>Message Structure - DataGEMS Accounting Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#automations" class="md-skip">
+        <a href="#accounting-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Automations
+              Message Structure
             
           </span>
         </div>
@@ -408,18 +408,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -440,7 +442,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -455,10 +457,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../accounting-model/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Message Structure
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -474,6 +503,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accounting-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accounting Model
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -546,20 +606,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -580,7 +638,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -595,37 +653,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Automations
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../automations/" class="md-nav__link">
         
   
   
@@ -641,48 +672,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#docker-image-and-publishing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Docker image and publishing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Documentation
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1026,21 +1015,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#docker-image-and-publishing" class="md-nav__link">
+  <a href="#accounting-model" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Docker image and publishing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Documentation
+        Accounting Model
       
     </span>
   </a>
@@ -1093,7 +1071,7 @@
         <a href="./" class="md-path__link">
           
   <span class="md-ellipsis">
-    Setup & Monitoring
+    Accounting
   </span>
 
         </a>
@@ -1115,15 +1093,24 @@
   
 
 
-<h1 id="automations">Automations<a class="headerlink" href="#automations" title="Permanent link">&para;</a></h1>
-<p>A number of automations are available to facilitate the development, quality assurance, security, deployment, maintenance and onboarding of the service. Here we describe some that are directly, publicly available.</p>
-<h2 id="docker-image-and-publishing">Docker image and publishing<a class="headerlink" href="#docker-image-and-publishing" title="Permanent link">&para;</a></h2>
-<p>The docker image for the service is managed and generated outside the DataGEMS organization GitHub structure. The service is based on the existing Accounting Service offered by CITE and maintained separately in a <a href="https://github.com/cite-sa/accounting-service">dedicated repository</a>.</p>
-<p>Updates and new docker images are generated in that repository and are pushed through the CI system in the DataGEMS Packages to be available for delivery similarly to the other DataGEMS components.</p>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
-<p>A GitHub Action workflow is available to <a href="https://github.com/datagems-eosc/dg-accounting/blob/main/.github/workflows/deploy-docs-on-demand.yml">generate documentation</a> available in the project in the format presented here. The action is triggered manually and can be executed against the head of the repository. The documentation generated is versioned and the documentation version is expected as input to the workflow. </p>
-<p>The documentation is build using the <a href="https://www.mkdocs.org/">mkdocs</a> library and specifically using the <a href="https://squidfunk.github.io/mkdocs-material/">Material for mkdocs</a> plugin. A number of additional tools are ustilized, such as <a href="https://github.com/jimporter/mike">mike</a> to support versioning, and others.</p>
-<p>The documentation is generated and tagged with the provided version. It is uploaded to a dedicated documentation branch that is configured to be used as the base branch over which the repository GitHub Page presents its contents.</p>
+<h1 id="accounting-overview">Accounting Overview<a class="headerlink" href="#accounting-overview" title="Permanent link">&para;</a></h1>
+<h2 id="accounting-model">Accounting Model<a class="headerlink" href="#accounting-model" title="Permanent link">&para;</a></h2>
+<p>The model for an accounted event can contain the following information:</p>
+<ul>
+<li>timestamp - DateTime (ISO 8601), Mandatory, Date of the entry</li>
+<li>starttime - DateTime (ISO 8601), Optional, Date of the operation starts</li>
+<li>endtime - DateTime (ISO 8601), Optional , Date of the operation ends</li>
+<li>serviceid - Text, Mandatory, Global unique identifier for the service that the log entry refers to. It may be generated by the probe rather than be harvested from the logs.</li>
+<li>level - ENUM, Mandatory, Value should be "accounting"</li>
+<li>resource - Text, Mandatory, The resource handled by the call.</li>
+<li>action - Text, Mandatory, The action identifier in internal semantics.</li>
+<li>userid - Text, Mandatory, An identifier for the user on whos purpose the work is performed</li>
+<li>userdelegate - Text, Optional, An identifier for the user who is the delegate to perform the work</li>
+<li>value - Double, Optional, The measure value if omitted 1</li>
+<li>measure - Text, Optional, The measure currently available messures time(ms), information(mb), throughput(mb/sec), unit, others to be considered, if omitted unit</li>
+<li>type - ENUM, Optional, The measure type available types + - 0, if omitted +</li>
+<li>comment - Text, Optional, A comment of accounting</li>
+</ul>
 
 
 
